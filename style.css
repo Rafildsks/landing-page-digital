@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header {
+    padding: 20px;
+}
+
+nav ul {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: #333;
+    font-size: 26px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+nav ul a:hover {
+    color: white;
+    background-color: #d40485;
+    border-radius: 4px;
+}
+
+.inicio {
+    background-color: black;
+    color: white;
+    padding: 150px;
+    align-items: center;
+    text-align: center;
+}
+
+.inicio button {
+    background-color: #d40485;
+    color: white;
+    padding: 10px;
+    gap: 10px;
+}
